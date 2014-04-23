@@ -6,8 +6,9 @@ gem 'rails', '4.1.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3-ruby', '1.3.3', :group => :development
-gem 'pg', :group => :production
+gem 'pg'
 gem 'heroku'
+gem 'rails_12factor', group: :production
 # Use unicorn as the web server
 # gem 'unicorn'
 
@@ -31,3 +32,4 @@ gem 'heroku'
 # end
 gem 'execjs', '2.0.2'
 gem 'therubyracer', '~> 0.11.4', platforms: :ruby
+ruby '2.1.1'
