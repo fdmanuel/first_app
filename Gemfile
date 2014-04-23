@@ -7,6 +7,7 @@ gem 'rails', '4.1.0'
 
 #gem 'sqlite3-ruby', '1.3.3', :group => :development
 gem 'pg'
+gem 'heroku'
 # Use unicorn as the web server
 # gem 'unicorn'
 
