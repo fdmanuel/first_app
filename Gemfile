@@ -9,6 +9,7 @@ gem 'rails', '4.1.0'
 gem 'pg'
 gem 'heroku'
 gem 'rails_12factor', group: :production
+gem 'sass'
 # Use unicorn as the web server
 gem 'unicorn'
 
