@@ -87,6 +87,7 @@ GEM
     rest-client (1.6.7)
       mime-types (>= 1.16)
     rubyzip (1.1.3)
+    sass (3.3.5)
     sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -121,5 +122,6 @@ DEPENDENCIES
   pg
   rails (= 4.1.0)
   rails_12factor
+  sass
   therubyracer (~> 0.11.4)
   unicorn

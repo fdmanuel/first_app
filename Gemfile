@@ -9,7 +9,7 @@ gem 'rails', '4.1.0'
 gem 'pg'
 gem 'heroku'
 gem 'rails_12factor', group: :production
-
+gem 'sass'
 # Use unicorn as the web server
 gem 'unicorn'
 
@@ -33,4 +33,4 @@ gem 'unicorn'
 # end
 gem 'execjs', '2.0.2'
 gem 'therubyracer', '~> 0.11.4', platforms: :ruby
-ruby '2.1.1'
+ruby '1.9.3'
